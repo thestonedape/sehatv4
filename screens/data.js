@@ -1,0 +1,245 @@
+const hospitals = [
+    {
+      name: 'Apollo Hospital',
+      icon: 'hospital',
+      color: '#5dbe74',
+      speciality: 'Cardiologist',
+      rating: 4.8,
+      profile: 'https://images.unsplash.com/photo-1512677859289-868722942457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFwb2xsbyUyMGhvc3BpdGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
+      availability: 0.8,
+      freeSeats: 10,
+      emergencySeats: 5,
+      distance: 5,
+      cost: 1000,
+    },
+    {
+      name: 'Fortis Hospital',
+      icon: 'hospital',
+      color: '#5dbe74',
+      speciality: ['Cardiologist', 'Dermatologist'],
+      rating: 4.7,
+      profile: 'https://images.unsplash.com/photo-1599700403969-f77b3aa74837?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGFwb2xsbyUyMGhvc3BpdGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
+      availability: 0.8,
+      freeSeats: 10,
+      emergencySeats: 5,
+      distance: 5,
+      cost: 1000,
+    },
+    {
+      name: 'Max Hospital',
+      icon: 'hospital',
+      color: '#5dbe74',
+      speciality: 'Cardiologist',
+      rating: 4.7,
+      profile: 'https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG9zcGl0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+      availability: 0.8,
+      freeSeats: 10,
+      emergencySeats: 5,
+      distance: 5,
+      cost: 1000,
+    },
+    {
+      name: 'AIIMS',
+      icon: 'hospital',
+      color: '#5dbe74',
+      speciality: 'Dermatologist',
+      rating: 4.7,
+      profile: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG9zcGl0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+      availability: 0.8,
+      freeSeats: 10,
+      emergencySeats: 5,
+      distance: 5,
+      cost: 1000,
+    },
+    {
+      name: 'People Hospital',
+      icon: 'hospital',
+      color: '#5dbe74',
+      speciality: 'Orthopedic',
+      rating: 4.6,
+      profile: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG9zcGl0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+      availability: 0.7,
+      freeSeats: 15,
+      emergencySeats: 3,
+      distance: 8,
+      cost: 1200,
+    },
+    {
+      name: 'Care Hospital',
+      icon: 'hospital',
+      color: '#5dbe74',
+      speciality: 'Pediatrician',
+      rating: 4.9,
+      profile: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG9zcGl0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+      availability: 0.9,
+      freeSeats: 8,
+      emergencySeats: 6,
+      distance: 3,
+      cost: 950,
+    },
+    {
+      name: 'WeCare Hospital',
+      icon: 'hospital',
+      color: '#5dbe74',
+      speciality: 'Cardiologist',
+      rating: 4.8,
+      profile: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG9zcGl0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+      availability: 0.8,
+      freeSeats: 10,
+      emergencySeats: 5,
+      distance: 5,
+      cost: 1000,
+    },
+  ];
+
+  const doctors = [
+    {
+      name: 'John Smith',
+      icon: 'user-md',
+      color: '#5dbe74',
+      speciality: 'Cardiologist',
+      location: 'Apollo Hospital',
+      about: 'Dr. John Smith is a Cardiologist in Apollo Hospital, Chennai and has an experience of 10 years in this field. Dr. John Smith practices at Apollo Hospital in Chennai. He completed MBBS from Madras Medical College, Chennai in 2008,MD - General Medicine from Madras Medical College, Chennai in 2012 and DM - Cardiology from Madras Medical College, Chennai in 2016.',
+      rating: 4.8,
+      // Add the profile image URL from Unsplash or other sources
+      profile: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+    },
+    {
+      name: 'Johnso',
+      icon: 'user-md',
+      color: '#5dbe74',
+      speciality: 'Dermatologist',
+      location: 'Apollo Hospital',
+      about: 'Dr. Johnson is a Dermatologist in Apollo Hospital, Chennai and has an experience of 10 years in this field. Dr. Johnson practices at Apollo Hospital in Chennai. He completed MBBS from Madras Medical College, Chennai in 2008,MD - General Medicine from Madras Medical College, Chennai in 2012 and DM - Cardiology from Madras Medical College, Chennai in 2016.',
+      rating: 4.3,
+      profile: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+      name: 'John',
+      icon: 'user-md',
+      color: '#5dbe74',
+      speciality: 'Dentist',
+      location: 'Apollo Hospital',
+      about: 'Dr. Johnson is a Dermatologist in Apollo Hospital, Chennai and has an experience of 10 years in this field. Dr. Johnson practices at Apollo Hospital in Chennai. He completed MBBS from Madras Medical College, Chennai in 2008,MD - General Medicine from Madras Medical College, Chennai in 2012 and DM - Cardiology from Madras Medical College, Chennai in 2016.',
+      rating: 4.4,
+      profile: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+      name: 'Samuel',
+      icon: 'user-md',
+      color: '#5dbe74',
+      speciality: 'Dentist',
+      location: 'Apollo Hospital',
+      rating: 4.2,
+      about: 'Dr. Samuel is a Dentist in Apollo Hospital, Chennai and has an experience of 10 years in this field. Dr. Johnson practices at Apollo Hospital in Chennai. He completed MBBS from Madras Medical College, Chennai in 2008,MD - General Medicine from Madras Medical College, Chennai in 2012 and DM - Cardiology from Madras Medical College, Chennai in 2016.',
+      // Add the profile image URL from Unsplash or other sources
+      profile: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+      name: 'Jonny',
+      icon: 'user-md',
+      color: '#5dbe74',
+      speciality: 'Dermatologist',
+      rating: 4.1,
+        location: 'Apollo Hospital',
+        about: 'Dr. Jonny is a Dermatologist in Apollo Hospital, Chennai and has an experience of 10 years in this field. Dr. Jonny practices at Apollo Hospital in Chennai. He completed MBBS from Madras Medical College, Chennai in 2008,MD - General Medicine from Madras Medical College, Chennai in 2012 and DM - Cardiology from Madras Medical College, Chennai in 2016.',
+
+      // Add the profile image URL from Unsplash or other sources
+      profile: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+      name: 'Maddy',
+      icon: 'user-md',
+      color: '#5dbe74',
+      speciality: 'Dermatologist',
+      rating: 4.7,
+        location: 'Apollo Hospital',
+        about: 'Dr. Maddy is a Dermatologist in Apollo Hospital, Chennai and has an experience of 10 years in this field. Dr. Maddy practices at Apollo Hospital in Chennai. He completed MBBS from Madras Medical College, Chennai in 2008,MD - General Medicine from Madras Medical College, Chennai in 2012 and DM - Cardiology from Madras Medical College, Chennai in 2016.',
+      // Add the profile image URL from Unsplash or other sources
+      profile: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+      name: 'Jacky',
+      icon: 'user-md',
+      color: '#5dbe74',
+      speciality: 'Dermatologist',
+      rating: 4.2,
+      // Add the profile image URL from Unsplash or other sources
+      profile: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+    },
+    {
+      name: 'Mackey',
+      icon: 'user-md',
+      color: '#5dbe74',
+      speciality: 'Dermatologist',
+      rating: 4.7,
+      location: 'Apollo Hospital',
+      about: 'Dr. Mackey is a Dermatologist in Apollo Hospital, Chennai and has an experience of 10 years in this field. Dr. Mackey practices at Apollo Hospital in Chennai. He completed MBBS from Madras Medical College, Chennai in 2008,MD - General Medicine from Madras Medical College, Chennai in 2012 and DM - Cardiology from Madras Medical College, Chennai in 2016.',
+      // Add the profile image URL from Unsplash or other sources
+      profile: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+    },
+
+  ]
+
+  const categories = [
+    {
+      name: 'Dentist',
+      icon: 'tooth',
+      color: '#B0C4DE',
+    },
+    {
+      name: 'Cardiologist',
+      icon: 'heart',
+      color: '#B0C4DE',
+    },
+    {
+      name: 'Dermatologist',
+      icon: 'user-md',
+      color: '#B0C4DE',
+    },
+    {
+      name: 'Gynecologist',
+      icon: 'female',
+      color: '#B0C4DE',
+    },
+    {
+      name: 'Neurologist',
+      icon: 'brain',
+      color: '#B0C4DE',
+    },
+    {
+      name: 'Ophthalmologist',
+      icon: 'eye',
+      color: '#B0C4DE',
+    },
+    {
+      name: 'Orthopedic',
+      icon: 'bone',
+      color: '#B0C4DE',
+    },
+    {
+      name: 'Pediatrician',
+      icon: 'child',
+      color: '#B0C4DE',
+    },
+    {
+      name: 'Psychiatrist',
+      icon: 'brain',
+      color: '#B0C4DE',
+    },
+    {
+      name: 'Pulmonologist',
+      icon: 'lungs',
+      color: '#B0C4DE',
+    },
+    {
+      name: 'Urologist',
+      icon: 'user',
+      color: '#B0C4DE',
+    }
+  ];
+
+
+  
+
+  export { hospitals, doctors, categories }
