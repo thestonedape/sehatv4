@@ -18,7 +18,7 @@
 SEHAT is a revolutionary healthcare app that brings personalized and accessible healthcare to patients. Utilizing advanced algorithms, the app provides real-time access to medical resources, including doctor availability. Patients can upload diagnosis reports for priority scheduling and find the best available doctor based on location, cost, and distance. The app also offers emergency booking, teleconsultation, prescription refills, and the ability to engage with doctor communities. SEHAT combines healthcare and innovation to deliver an unparalleled patient experience.
 
 <div align="center">
- <img border="0" src="assets/front.png" >
+ <img border="0" src="assets/front1.png" >
 </div>
 <br>
 <b>SEHAT</b> is designed to provide comprehensive healthcare solutions. It offers features to prioritize patient well-being by combining cutting-edge technology and medical expertise. Users can access real-time medical information, schedule appointments, and connect with healthcare professionals seamlessly.
