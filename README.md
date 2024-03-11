@@ -17,7 +17,7 @@
 # Context
 Insights provide detailed information about the various government policies and schemes, including eligibility criteria, benefits, the application process, and the documents required.
 <div align="center">
- <img border="0" src="assets/front.png" >
+ <img border="0" src="assets/front1.png" >
 </div>
 <br>
 <b>INSIGHTS</b> is designed to help people who are unaware of government schemes including eligibility criteria, benefits, application process, and documents required. It provides a way for readers to save news and schemes, which helps to keep track of all eligible schemes which can benefit them. Schemes are also filtered so that users can get to know all eligible schemes which can benefit them. We have also used multiple sources like twitter, multiple media sources to ensure the accuracy of the data.
