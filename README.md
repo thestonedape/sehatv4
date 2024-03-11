@@ -104,6 +104,4 @@ To run the app on an emulator, open a new terminal window, navigate to the proje
   </div>
  <br>
    
-### Download Application
-Click [HERE](https://insightss.netlify.app) to check it out!
 
