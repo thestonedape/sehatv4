@@ -64,6 +64,7 @@ const SignInWithOAuth = ({ onUserSelect }) => {
     return null;
   }
 
+  
   return (
     <SafeAreaView style={{ flex: 1, alignItems: "center", backgroundColor: '#eee' }}>
       <View style={{ justifyContent: 'center', alignItems: 'center',}}>
