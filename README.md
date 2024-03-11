@@ -15,7 +15,7 @@
 <br>
 
 # Context
-SEHAT is a revolutionary healthcare app that brings personalized and accessible healthcare to patients. Utilizing advanced AI and ML algorithms, the app provides real-time access to medical resources, including doctor availability. Patients can upload diagnosis reports for priority scheduling and find the best available doctor based on location, cost, and distance. The app also offers emergency booking, teleconsultation, prescription refills, and the ability to engage with doctor communities. SEHAT combines healthcare and innovation to deliver an unparalleled patient experience.
+SEHAT is a revolutionary healthcare app that brings personalized and accessible healthcare to patients. Utilizing advanced algorithms, the app provides real-time access to medical resources, including doctor availability. Patients can upload diagnosis reports for priority scheduling and find the best available doctor based on location, cost, and distance. The app also offers emergency booking, teleconsultation, prescription refills, and the ability to engage with doctor communities. SEHAT combines healthcare and innovation to deliver an unparalleled patient experience.
 
 <div align="center">
  <img border="0" src="assets/front.png" >
@@ -62,13 +62,7 @@ SEHAT fosters a community where patients can engage with healthcare professional
   
 <div align="center"> 
    
-  <img border="0" height='350' src="https://github.com/your-username/sehat/blob/master/assets/images/7.png">
-  <img border="0" height='350' src="https://github.com/your-username/sehat/blob/master/assets/images/6.png">
-  <img border="0" height='350' src="https://github.com/your-username/sehat/blob/master/assets/images/3.png">
-  <img border="0" height='350' src="https://github.com/your-username/sehat/blob/master/assets/images/4.png">
-   <br>
-  <img border="0" height='350' src="https://github.com/your-username/sehat/blob/master/assets/images/5.png">
-  <img border="0" height='350' src="https://github.com/your-username/sehat/blob/master/assets/images/1.png">
+  <img border="0" height='350' src="assets/back.png">
        
 </div>
 
