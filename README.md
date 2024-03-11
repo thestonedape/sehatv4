@@ -6,8 +6,8 @@
 
 <div align = "center"> 
 
-<img src ="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"> </img>
-<img src ="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black"> </img>
+<img src ="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></img>
+<img src ="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black"></img>
 
 </div>
 
@@ -17,14 +17,13 @@
 # Context
 Insights provide detailed information about the various government policies and schemes, including eligibility criteria, benefits, the application process, and the documents required.
 <div align="center">
- <img border="0" src="https://github.com/thestonedape/testingfinalInsights/blob/master/assets/images/app.png" >
+ <img border="0" src="https://github.com/thestonedape/testingfinalInsights/blob/master/assets/front.png" >
 </div>
 <br>
 <b>INSIGHTS</b> is designed to help people who are unaware of government schemes including eligibility criteria, benefits, application process, and documents required. It provides a way for readers to save news and schemes, which helps to keep track of all eligible schemes which can benefit them. Schemes are also filtered so that users can get to know all eligible schemes which can benefit them. We have also used multiple sources like twitter, multiple media sources to ensure the accuracy of the data.
     <br>
 <br>
 <br>
-
 
 
 # Features
