@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1 align ="center"><b>INSIGHTS </b></h1>
+<h1 align ="center"><b>SEHAT</b></h1>
  </div>
 
 
